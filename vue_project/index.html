@@ -5,18 +5,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>vue_project</title>
     <script>
-    (function (l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) {
-          var a = v.split('=');
-          q[a[0]] = a[1];
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || '')); // https://hoge.com/fooへ遷移
-        }
-      }
-    }(window.location))
+  (function(){
+    // 保存しておいたURLを取り出す
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      // historyを書き換える。これで正常にページ遷移を行ったときの表示となる。
+      history.replaceState(null, null, redirect);
+    }
+  })();
   </script>
   </head>
   <body>
