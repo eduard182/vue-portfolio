@@ -3,27 +3,31 @@
       <table>
         <tbody>
           <tr>
-            <th>Name.</th>
+            <th>氏名.</th>
             <td>{{ name }}</td>
           </tr>
           <tr>
-            <th>Age.</th>
+            <th>年齢.</th>
             <td>{{ age }}</td>
           </tr>
           <tr>
-            <th>Birth Place.</th>
+            <th>出身地.</th>
             <td>{{ birthPlace }}</td>
           </tr>
           <tr>
-            <th>Birthday.</th>
+            <th>居住地.</th>
+            <td>{{ livePlace }}</td>
+          </tr>
+          <tr>
+            <th>生年月日.</th>
             <td>{{ birthday }}</td>
           </tr>
           <tr>
-            <th>University.</th>
+            <th>大学.</th>
             <td>{{ university }}</td>
           </tr>
           <tr>
-            <th>Engineer's Carrier.</th>
+            <th>エンジニア歴.</th>
             <td>{{ carrier }}</td>
           </tr>
         </tbody>
@@ -37,12 +41,13 @@ export default {
   title: ' ',
   data () {
     return {
-      name: 'Shintaro Tanaka.',
+      name: '田中 慎太郎.',
       age: '32.',
-      birthPlace: 'Fukuoka.',
-      birthday: '1986-04-23.',
-      university: 'Osaka Institute of Technology.',
-      carrier: '9.'
+      birthPlace: '福岡市.',
+      livePlace: '横浜市',
+      birthday: 'S61-1986-04-23.',
+      university: '大阪工業大学.',
+      carrier: '9年.'
     }
   }
 }
@@ -51,36 +56,22 @@ export default {
 <style>
 #prof {
   height: 94vh;
-  padding-top: 12vh;
   position: relative;
+  color: #000044;
   text-align: center;
 }
-#prof h1 {
-  padding-top: 10vh;
-  font-size: 30px;
-  letter-spacing: 3px;
-  font-weight: normal;
-  padding-right : 20px;
-  padding-left : 20px;
-  margin: 0;
-  font-family: cursive;
-}
-table {
-  padding : 50px 0;
+#prof table {
+  margin-top: 26vh;
+  font-size: 22px;
+  font-family: 'arial unicode ms';
   display: inline-block;
   text-align: left;
-  font-family: cursive;
-  color: #000044;
 }
 th {
   padding-right: 20px;
   font-weight: normal;
 }
 td {
-  font-size : 20px;
   padding : 5px 0px;
-}
-{
-  text-decoration: none;
 }
 </style>
