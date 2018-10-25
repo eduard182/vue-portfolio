@@ -1,8 +1,10 @@
 <template>
-    <div id="hello">
-      <h1>{{ msg }}</h1>
-      <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
-    </div>
+    <transition appear>
+      <div id="hello" v-show="show">
+        <h1>{{ msg }}</h1>
+        <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
+      </div>
+    </transition>
 </template>
 
 <script>
@@ -11,7 +13,8 @@ export default {
   title: ' ',
   data () {
     return {
-      msg: 'Welcome to TaNA\'s Portfolio Site.'
+      msg: 'Welcome to TaNA\'s Portfolio Site.',
+      show: true
     }
   }
 }
@@ -27,7 +30,7 @@ export default {
   text-align: center;
 }
 #hello h1 {
-  padding-top: 25vh;
+  padding-top: 30vh;
   font-size: 50px;
   color: white;
   letter-spacing: 3px;
@@ -56,5 +59,11 @@ export default {
   border-radius: 50%;
   background-color: white;
   opacity: 0.8;
+}
+.v-enter-active, .v-leave-active {
+  transition: opacity 1.5s;
+}
+.v-enter, .v-leave-to {
+  opacity: 0;
 }
 </style>
