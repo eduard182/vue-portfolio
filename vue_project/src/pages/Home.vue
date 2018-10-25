@@ -1,6 +1,6 @@
 <template>
     <transition appear>
-      <div id="hello" v-show="show">
+      <div id="hello">
         <h1>{{ msg }}</h1>
         <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
       </div>
@@ -13,8 +13,7 @@ export default {
   title: ' ',
   data () {
     return {
-      msg: 'Welcome to TaNA\'s Portfolio Site.',
-      show: true
+      msg: 'Welcome to TaNA\'s Portfolio Site.'
     }
   }
 }
