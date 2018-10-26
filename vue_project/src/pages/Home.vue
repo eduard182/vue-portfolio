@@ -59,10 +59,10 @@ export default {
   background-color: white;
   opacity: 0.8;
 }
-.v-enter-active, .v-leave-active {
+.v-enter-active {
   transition: opacity 1.5s;
 }
-.v-enter, .v-leave-to {
+.v-enter {
   opacity: 0;
 }
 </style>

@@ -1,38 +1,40 @@
 <template>
+  <transition appear>
     <div id="prof">
       <table>
         <tbody>
           <tr>
-            <th>氏名.</th>
+            <th>Name.</th>
             <td>{{ name }}</td>
           </tr>
           <tr>
-            <th>年齢.</th>
+            <th>Age.</th>
             <td>{{ age }}</td>
           </tr>
           <tr>
-            <th>出身地.</th>
+            <th>BirthPlace.</th>
             <td>{{ birthPlace }}</td>
           </tr>
           <tr>
-            <th>居住地.</th>
+            <th>Home.</th>
             <td>{{ livePlace }}</td>
           </tr>
           <tr>
-            <th>生年月日.</th>
-            <td>{{ birthday }}</td>
+            <th>github.</th>
+            <td><a href='https://github.com/machio77777' target="_blank">{{ github }}</a></td>
           </tr>
           <tr>
-            <th>大学.</th>
-            <td>{{ university }}</td>
+            <th>qiita.</th>
+            <td><a href='https://qiita.com/machio77777' target="_blank">{{ qiita }}</a></td>
           </tr>
           <tr>
-            <th>エンジニア歴.</th>
-            <td>{{ carrier }}</td>
+            <th>booklog.</th>
+            <td><a href='https://qiita.com/machio77777' target="_blank">{{ booklog }}</a></td>
           </tr>
         </tbody>
       </table>
     </div>
+  </transition>
 </template>
 
 <script>
@@ -41,13 +43,13 @@ export default {
   title: ' ',
   data () {
     return {
-      name: '田中 慎太郎.',
+      name: 'Shintaro Tanaka.',
       age: '32.',
-      birthPlace: '福岡市.',
-      livePlace: '横浜市',
-      birthday: 'S61-1986-04-23.',
-      university: '大阪工業大学.',
-      carrier: '9年.'
+      birthPlace: 'Fukuoka-Shi.',
+      livePlace: 'Yokohama-Shi.',
+      github: '@machio77777',
+      qiita: '@machio77777',
+      booklog: '@machio77777'
     }
   }
 }
@@ -61,17 +63,30 @@ export default {
   text-align: center;
 }
 #prof table {
-  margin-top: 26vh;
+  margin-top: 20vh;
   font-size: 22px;
-  font-family: 'arial unicode ms';
+  font-family: cursive;
   display: inline-block;
   text-align: left;
 }
-th {
+#prof table th {
   padding-right: 20px;
   font-weight: normal;
 }
-td {
+#prof table td {
   padding : 5px 0px;
+}
+#prof table td a {
+  margin: 0px;
+  height: 25px;
+  font-size: 22px;
+  color: #00bfff;
+  line-height: 25px;
+}
+.v-enter-active {
+  transition: opacity 1.5s;
+}
+.v-enter {
+  opacity: 0;
 }
 </style>
