@@ -65,9 +65,11 @@ export default {
 }
 #prof table {
   margin-top: 20vh;
+  padding: 30px 70px;
   font-size: 22px;
   display: inline-block;
   text-align: left;
+  box-shadow: 0 0 8px gray;
 }
 #prof table th {
   padding-right: 20px;
