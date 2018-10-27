@@ -30,7 +30,7 @@ export default {
   font-family: cursive;
 }
 #hello h1 {
-  padding-top: 30vh;
+  padding-top: 33vh;
   font-size: 50px;
   color: white;
   letter-spacing: 3px;
