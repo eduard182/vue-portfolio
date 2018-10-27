@@ -98,6 +98,7 @@ export default {
   }
   #prof table {
     margin-top: 13vh;
+    padding: 30px;
   }
 }
 </style>
