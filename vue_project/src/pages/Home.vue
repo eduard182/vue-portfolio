@@ -27,6 +27,7 @@ export default {
   url('../assets/sakura.jpg');
   background-size: cover;
   text-align: center;
+  font-family: cursive;
 }
 #hello h1 {
   padding-top: 30vh;
@@ -37,13 +38,11 @@ export default {
   padding-right : 20px;
   padding-left : 20px;
   margin: 0;
-  font-family: cursive;
 }
 #hello h2 {
   padding-top: 10vh;
   font-size: 25px;
   color: white;
-  font-family: cursive;
 }
 #account {
   padding-top: 12vh;
