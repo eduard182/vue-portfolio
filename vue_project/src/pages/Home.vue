@@ -68,11 +68,11 @@ export default {
 
 @media (max-width : 670px){
   #hello {
-    height: 70vh;
+    height: 68vh;
     font-family: cursive;
   }
   #hello h1 {
-    padding-top: 15vh;
+    padding-top: 13vh;
     font-size: 35px;
   }
   #hello h2 {
