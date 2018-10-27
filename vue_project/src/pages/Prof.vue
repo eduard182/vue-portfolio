@@ -97,7 +97,8 @@ export default {
     font-family: 'arial unicode ms';
   }
   #prof table {
-    padding: 30px;
+    margin-top: 5vh;
+    padding: 20px 30px;
   }
 }
 </style>
