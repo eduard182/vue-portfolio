@@ -30,7 +30,7 @@ export default {
   font-family: cursive;
 }
 #hello h1 {
-  padding-top: 33vh;
+  padding-top: 30vh;
   font-size: 50px;
   color: white;
   letter-spacing: 3px;
@@ -71,7 +71,7 @@ export default {
     font-family: 'arial unicode ms';
   }
   #hello h1 {
-    padding-top: 13vh;
+    padding-top: 15vh;
     font-size: 35px;
   }
   #hello h2 {
