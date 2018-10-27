@@ -3,8 +3,8 @@
     <div id="skill">
       <p class="heading">これからやりたいこと.</p>
       <p class="eng">- What you want to do now -</p>
-      <p class="goal">テクノロジーを活用して、シンプルに世の中に貢献すること!!</p>
-      <p class="eng">- Utilizing technology to make a simple contribution to the world -</p>
+      <p class="goal">テクノロジーの活用で世の中への貢献!!</p>
+      <p class="eng">- Contribution to the world by utilizing technology -</p>
       <p class="heading">強み.</p>
       <p class="eng">- Strength -</p>
       <div id="feature">
@@ -78,6 +78,7 @@ export default {
   }
   #skill #feature ul {
     width: 85%;
+    font-size: 14px;
   }
 }
 </style>
