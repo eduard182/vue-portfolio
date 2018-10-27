@@ -2,8 +2,11 @@
   <transition appear>
     <div id="skill">
       <p class="heading">これからやりたいこと.</p>
+      <p class="eng">- What you want to do now -</p>
       <p class="goal">テクノロジーを活用して、シンプルに世の中に貢献すること!!</p>
+      <p class="eng">- Utilizing technology to make a simple contribution to the world -</p>
       <p class="heading">強み.</p>
+      <p class="eng">- Strength -</p>
       <div id="feature">
         <ul>
           <li>PM・PL・SE・PGなど様々な立場で要件定義 - 保守・運用の一貫した経験があります.</li>
@@ -12,6 +15,7 @@
           <li>テクノロジー自体の追求より、テクノロジーの活用で世の中への貢献を考えるマインド.</li>
         </ul>
         <p class="heading">人並みに出来ること.</p>
+        <p class="eng">- Things you can do casually -</p>
         <ul>
           <li>基本UIスキル(HTML/CSS/ES6/jQuery/Ajax/レスポンシブ)でのフロント開発が可能.</li>
           <li>RDBMSの基礎スキル(SQL/正規化/インデックス/トランザクション)に関わる開発が可能.</li>
@@ -41,21 +45,23 @@ export default {
   font-family: 'arial unicode ms';
 }
 #skill .heading {
-  padding-top: 3vh;
-  font-size: 24px;
+  padding-top: 2vh;
+  font-size: 22px;
   font-weight: bold;
 }
 #skill .goal {
-  font-size: 20px;
+  font-size: 18px;
+}
+#skill .eng {
+  font-family: cursive;
 }
 #skill #feature {
-  border-style: solid;
+  margin-bottom: 40px;
 }
 #skill #feature ul {
-  width: 92vh;
+  width: 650px;
   margin: 0px auto;
   text-align: left;
-  border-style: solid;
 }
 #skill #feature ul li {
   margin: 15px 0px;
@@ -65,5 +71,10 @@ export default {
 }
 .v-enter {
   opacity: 0;
+}
+@media (max-width : 670px){
+  #skill {
+    height: 70vh;
+  }
 }
 </style>
