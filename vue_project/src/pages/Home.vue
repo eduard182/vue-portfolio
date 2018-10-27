@@ -65,4 +65,10 @@ export default {
 .v-enter {
   opacity: 0;
 }
+
+@media (max-width : 670px){
+  .hello {
+    height: 82vh;
+  }
+}
 </style>
