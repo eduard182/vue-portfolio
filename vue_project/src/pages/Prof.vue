@@ -92,10 +92,10 @@ export default {
 @media (max-width : 670px){
   #prof {
     height: 70vh;
-    font-family: cursive;
+    font-family: 'ヒラギノ角ゴシック';
   }
   #prof table {
-    margin-top: 10vh;
+    margin-top: 12vh;
   }
 }
 </style>

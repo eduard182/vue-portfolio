@@ -69,7 +69,7 @@ export default {
 @media (max-width : 670px){
   #hello {
     height: 70vh;
-    font-family: cursive;
+    font-family: 'ヒラギノ角ゴシック';
   }
   #hello h1 {
     padding-top: 13vh;
