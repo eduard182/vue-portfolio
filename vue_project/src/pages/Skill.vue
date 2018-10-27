@@ -74,8 +74,10 @@ export default {
 }
 @media (max-width : 670px){
   #skill {
-    width: 60%;
     height: 70vh;
+  }
+  #skill #feature ul {
+    width: 100%;
   }
 }
 </style>
