@@ -95,7 +95,7 @@ export default {
     font-family: cursive;
   }
   #prof table {
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
 }
 </style>
