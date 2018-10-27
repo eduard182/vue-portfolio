@@ -71,7 +71,7 @@ export default {
     font-family: 'arial unicode ms';
   }
   #hello h1 {
-    padding-top: 15vh;
+    padding-top: 17vh;
     font-size: 35px;
   }
   #hello h2 {
