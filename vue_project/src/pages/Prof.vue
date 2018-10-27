@@ -61,11 +61,11 @@ export default {
   position: relative;
   color: #000044;
   text-align: center;
+  font-family: cursive;
 }
 #prof table {
   margin-top: 20vh;
   font-size: 22px;
-  font-family: cursive;
   display: inline-block;
   text-align: left;
 }
@@ -88,5 +88,14 @@ export default {
 }
 .v-enter {
   opacity: 0;
+}
+@media (max-width : 670px){
+  #prof {
+    height: 70vh;
+    font-family: cursive;
+  }
+  #prof table {
+    margin-top: 15vh;
+  }
 }
 </style>
