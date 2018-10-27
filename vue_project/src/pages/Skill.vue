@@ -77,7 +77,7 @@ export default {
     height: 70vh;
   }
   #skill #feature {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
   }
   #skill #feature ul {
     width: 85%;
