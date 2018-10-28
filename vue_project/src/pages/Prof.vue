@@ -140,5 +140,13 @@ export default {
     height: 70vh;
     font-family: 'arial unicode ms';
   }
+  #prof #feature {
+    margin-bottom: 100px;
+  }
+  #prof #feature ul {
+    width: 85%;
+    width: 80%;
+    font-size: 14px;
+  }
 }
 </style>
