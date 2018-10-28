@@ -1,22 +1,24 @@
 <template>
   <transition appear>
     <div id="prof">
+      <p class="heading">基本情報.</p>
+      <p class="eng">- Basic information -</p>
       <table>
         <tbody>
           <tr>
-            <th>Name.</th>
+            <th>氏名.</th>
             <td>{{ name }}</td>
           </tr>
           <tr>
-            <th>Age.</th>
+            <th>年齢.</th>
             <td>{{ age }}</td>
           </tr>
           <tr>
-            <th>BirthPlace.</th>
+            <th>出身地.</th>
             <td>{{ birthPlace }}</td>
           </tr>
           <tr>
-            <th>Home.</th>
+            <th>居住地.</th>
             <td>{{ livePlace }}</td>
           </tr>
           <tr>
@@ -33,6 +35,27 @@
           </tr>
         </tbody>
       </table>
+      <p class="heading">これからやりたいこと.</p>
+      <p class="eng">- What you want to do now -</p>
+      <p class="goal">テクノロジーの活用で世の中への貢献!!</p>
+      <p class="eng">- Contribution to the world by utilizing technology -</p>
+      <p class="heading">強み.</p>
+      <p class="eng">- Strength -</p>
+      <div id="feature">
+        <ul>
+          <li>PM・PL・SE・PGなど様々な立場で要件定義 - 保守・運用の一貫した経験があります.</li>
+          <li>LAMP開発経験が長く、小規模プロジェクトであれば要件定義 - リリースまで担当可能.</li>
+          <li>複数PHPフレームワークでの開発経験があり、設計/実装/保守を意識したテストが可能.</li>
+          <li>テクノロジー自体の追求より、テクノロジーの活用で世の中への貢献を考えるマインド.</li>
+        </ul>
+        <p class="heading">人並みに出来ること.</p>
+        <p class="eng">- Things you can do casually -</p>
+        <ul>
+          <li>基本UIスキル(HTML/CSS/ES6/jQuery/Ajax/レスポンシブ)でのフロント開発が可能.</li>
+          <li>RDBMSの基礎スキル(SQL/正規化/インデックス/トランザクション)に関わる開発が可能.</li>
+          <li>Linux上での操作/サーバー構築/AWS環境での開発などインフラ基礎に関わる開発が可能.</li>
+        </ul>
+      </div>
     </div>
   </transition>
 </template>
@@ -43,10 +66,10 @@ export default {
   title: ' ',
   data () {
     return {
-      name: 'Shintaro Tanaka.',
+      name: '田中 慎太郎.',
       age: '32.',
-      birthPlace: 'Fukuoka-Shi.',
-      livePlace: 'Yokohama-Shi.',
+      birthPlace: '福岡市.',
+      livePlace: '横浜市.',
       github: '@machio77777',
       qiita: '@machio77777',
       booklog: '@machio77777'
@@ -61,15 +84,13 @@ export default {
   position: relative;
   color: #000044;
   text-align: center;
-  font-family: cursive;
+  font-family: 'arial unicode ms';
 }
 #prof table {
-  margin-top: 20vh;
-  padding: 30px 70px;
-  font-size: 22px;
+  padding: 0px 70px;
+  font-size: 18px;
   display: inline-block;
   text-align: left;
-  box-shadow: 0 0 8px gray;
 }
 #prof table th {
   padding-right: 20px;
@@ -81,10 +102,33 @@ export default {
 #prof table td a {
   margin: 0px;
   height: 25px;
-  font-size: 22px;
+  font-size: 18px;
   color: #00bfff;
   line-height: 25px;
 }
+#prof .heading {
+  padding-top: 2vh;
+  font-size: 22px;
+  font-weight: bold;
+}
+#prof .goal {
+  font-size: 18px;
+}
+#prof .eng {
+  font-family: cursive;
+}
+#prof #feature {
+  margin-bottom: 40px;
+}
+#prof #feature ul {
+  width: 650px;
+  margin: 0px auto;
+  text-align: left;
+}
+#prof #feature ul li {
+  margin: 15px 0px;
+}
+
 .v-enter-active {
   transition: opacity 1.5s;
 }
@@ -95,10 +139,6 @@ export default {
   #prof {
     height: 70vh;
     font-family: 'arial unicode ms';
-  }
-  #prof table {
-    margin-top: 10vh;
-    padding: 20px 30px;
   }
 }
 </style>
