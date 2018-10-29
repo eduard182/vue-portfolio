@@ -3,6 +3,7 @@
     <div id="prof">
       <p class="heading">基本情報.</p>
       <p class="eng">- Basic information -</p>
+      <p id="picture"></p>
       <table>
         <tbody>
           <tr>
@@ -32,6 +33,40 @@
           <tr>
             <th>booklog.</th>
             <td><a href='https://qiita.com/machio77777' target="_blank">{{ booklog }}</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="heading">資格.</p>
+      <p class="eng">- License -</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>1.</th>
+            <td>応用情報技術者.</td>
+          </tr>
+          <tr>
+            <th>2.</th>
+            <td>OJC-WC 5.0.</td>
+          </tr>
+          <tr>
+            <th>3.</th>
+            <td>Oracle DB-Bronze 11g.</td>
+          </tr>
+          <tr>
+            <th>4.</th>
+            <td>LPIC Level-1.</td>
+          </tr>
+          <tr>
+            <th>5.</th>
+            <td>OJC-P 6.0.</td>
+          </tr>
+          <tr>
+            <th>6.</th>
+            <td>日商簿記3級.</td>
+          </tr>
+          <tr>
+            <th>7.</th>
+            <td>普通自動車免許(AT).</td>
           </tr>
         </tbody>
       </table>
@@ -85,6 +120,15 @@ export default {
   color: #000044;
   text-align: center;
   font-family: 'arial unicode ms';
+}
+#picture {
+  margin: 30px auto;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  background: url('../assets/prof.gif');
+  background-size: contain;
+  border: solid 1px #c0c0c0;
 }
 #prof table {
   padding: 0px 70px;
