@@ -184,7 +184,7 @@ export default {
     /*height: 70vh;*/
     font-family: 'arial unicode ms';
   }
-  #prof #feature {
+  #feature {
     margin-bottom: 10px;
   }
   #prof #feature ul {
