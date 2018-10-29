@@ -181,11 +181,11 @@ export default {
 }
 @media (max-width : 670px){
   #prof {
-    height: 70vh;
+    /*height: 70vh;*/
     font-family: 'arial unicode ms';
   }
   #prof #feature {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
   #prof #feature ul {
     width: 85%;
