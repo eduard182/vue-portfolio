@@ -1,7 +1,7 @@
 <template>
     <transition appear>
       <div id="hello">
-        <h1>{{ msg }}</h1>
+        <h1>Welcome to TaNA\'s Portfolio Site.</h1>
         <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
       </div>
     </transition>
@@ -13,7 +13,6 @@ export default {
   title: ' ',
   data () {
     return {
-      msg: 'Welcome to TaNA\'s Portfolio Site.'
     }
   }
 }
@@ -21,18 +20,18 @@ export default {
 
 <style>
 #hello {
-  height: 94vh;
   position: relative;
+  height: 94vh;
+  text-align: center;
+  color: white;
+  font-family: cursive;
   background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
   url('../assets/sakura.jpg');
   background-size: cover;
-  text-align: center;
-  font-family: cursive;
 }
 #hello h1 {
   padding-top: 30vh;
   font-size: 50px;
-  color: white;
   letter-spacing: 3px;
   font-weight: normal;
   padding-right : 20px;
@@ -42,21 +41,6 @@ export default {
 #hello h2 {
   padding-top: 10vh;
   font-size: 25px;
-  color: white;
-}
-#account {
-  padding-top: 12vh;
-}
-#account .social-icon {
-  margin: 0px 20px;
-  display: inline-block;
-}
-#account .social-icon img {
-  width: 115px;
-  height: 110px;
-  border-radius: 50%;
-  background-color: white;
-  opacity: 0.8;
 }
 .v-enter-active {
   transition: opacity 1.5s;

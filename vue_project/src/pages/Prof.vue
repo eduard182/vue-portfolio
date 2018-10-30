@@ -8,65 +8,31 @@
         <tbody>
           <tr>
             <th>氏名.</th>
-            <td>{{ name }}</td>
+            <td>田中 慎太郎.</td>
           </tr>
           <tr>
             <th>年齢.</th>
-            <td>{{ age }}</td>
+            <td>32.</td>
           </tr>
           <tr>
             <th>出身地.</th>
-            <td>{{ birthPlace }}</td>
+            <td>福岡市.</td>
           </tr>
           <tr>
             <th>居住地.</th>
-            <td>{{ livePlace }}</td>
+            <td>横浜市.</td>
           </tr>
           <tr>
             <th>github.</th>
-            <td><a href='https://github.com/machio77777' target="_blank">{{ github }}</a></td>
+            <td><a href='https://github.com/machio77777' target="_blank">@machio77777</a></td>
           </tr>
           <tr>
             <th>qiita.</th>
-            <td><a href='https://qiita.com/machio77777' target="_blank">{{ qiita }}</a></td>
+            <td><a href='https://qiita.com/machio77777' target="_blank">@machio77777</a></td>
           </tr>
           <tr>
             <th>booklog.</th>
-            <td><a href='https://qiita.com/machio77777' target="_blank">{{ booklog }}</a></td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="heading">資格.</p>
-      <p class="eng">- License -</p>
-      <table>
-        <tbody>
-          <tr>
-            <th>1.</th>
-            <td>応用情報技術者.</td>
-          </tr>
-          <tr>
-            <th>2.</th>
-            <td>OJC-WC 5.0.</td>
-          </tr>
-          <tr>
-            <th>3.</th>
-            <td>Oracle DB-Bronze 11g.</td>
-          </tr>
-          <tr>
-            <th>4.</th>
-            <td>LPIC Level-1.</td>
-          </tr>
-          <tr>
-            <th>5.</th>
-            <td>OJC-P 6.0.</td>
-          </tr>
-          <tr>
-            <th>6.</th>
-            <td>日商簿記3級.</td>
-          </tr>
-          <tr>
-            <th>7.</th>
-            <td>普通自動車免許(AT).</td>
+            <td><a href='https://booklog.jp/users/machio77777' target="_blank">@machio77777</a></td>
           </tr>
         </tbody>
       </table>
@@ -91,6 +57,40 @@
           <li>Linux上での操作/サーバー構築/AWS環境での開発などインフラ基礎に関わる開発が可能.</li>
         </ul>
       </div>
+      <p class="heading">資格.</p>
+      <p class="eng">- License -</p>
+      <table id="license">
+        <tbody>
+          <tr>
+            <th>1.</th>
+            <td>応用情報技術者.</td>
+          </tr>
+          <tr>
+            <th>2.</th>
+            <td>OJC-WC 5.0.</td>
+          </tr>
+          <tr>
+            <th>3.</th>
+            <td>OJC-P 6.0.</td>
+          </tr>
+          <tr>
+            <th>4.</th>
+            <td>Oracle DB-Bronze 11g.</td>
+          </tr>
+          <tr>
+            <th>5.</th>
+            <td>LPIC Level-1.</td>
+          </tr>
+          <tr>
+            <th>6.</th>
+            <td>日商簿記3級.</td>
+          </tr>
+          <tr>
+            <th>7.</th>
+            <td>普通自動車免許(AT).</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </transition>
 </template>
@@ -101,13 +101,6 @@ export default {
   title: ' ',
   data () {
     return {
-      name: '田中 慎太郎.',
-      age: '32.',
-      birthPlace: '福岡市.',
-      livePlace: '横浜市.',
-      github: '@machio77777',
-      qiita: '@machio77777',
-      booklog: '@machio77777'
     }
   }
 }
@@ -161,9 +154,6 @@ export default {
 #prof .eng {
   font-family: cursive;
 }
-#prof #feature {
-  margin-bottom: 40px;
-}
 #prof #feature ul {
   width: 650px;
   margin: 0px auto;
@@ -172,7 +162,9 @@ export default {
 #prof #feature ul li {
   margin: 15px 0px;
 }
-
+#prof #license {
+  margin-bottom: 40px;
+}
 .v-enter-active {
   transition: opacity 1.5s;
 }
@@ -181,16 +173,15 @@ export default {
 }
 @media (max-width : 670px){
   #prof {
-    /*height: 70vh;*/
     font-family: 'arial unicode ms';
-  }
-  #feature {
-    margin-bottom: 10px;
   }
   #prof #feature ul {
     width: 85%;
     width: 80%;
     font-size: 14px;
+  }
+  #license {
+    display: inline-block;
   }
 }
 </style>
