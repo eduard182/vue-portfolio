@@ -56,11 +56,11 @@ export default {
   }
   #hello h1 {
     padding-top: 17vh;
-    font-size: 35px;
+    font-size: 30px;
   }
   #hello h2 {
     padding-top: 10vh;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 </style>
