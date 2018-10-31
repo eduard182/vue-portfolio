@@ -1,10 +1,10 @@
 <template>
-    <transition appear>
-      <div id="hello">
-        <h1>Welcome to TaNA\'s Portfolio Site.</h1>
-        <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
-      </div>
-    </transition>
+  <transition appear>
+    <div id="hello">
+      <h1>Welcome to TaNA's Portfolio Site.</h1>
+      <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
+    </div>
+  </transition>
 </template>
 
 <script>

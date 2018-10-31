@@ -1,7 +1,8 @@
 <template>
+  <transition appear>
     <div id="development">
-      <h1>{{ msg }}</h1>
     </div>
+  </transition>
 </template>
 
 <script>
@@ -20,10 +21,18 @@ export default {
 #development {
   height: 94vh;
   color: #000044;
-  font-family: cursive;
 }
-#development h1 {
-  padding-top: 35vh;
-  font-weight: bold;
+#list {
+  padding-top: 15px;
+}
+#list .artifacts {
+  margin: 30px;
+  border: solid 1px;
+}
+.v-enter-active {
+  transition: opacity 1.5s;
+}
+.v-enter {
+  opacity: 0;
 }
 </style>
