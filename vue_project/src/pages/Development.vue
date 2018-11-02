@@ -36,58 +36,6 @@ export default {
             require('../assets/html-5.svg'),
             require('../assets/css-3.svg'),
             require('../assets/github-octocat.svg')]
-        },
-        {
-          capture: require('../assets/resume.png'),
-          name: '業務経歴書.',
-          eng: 'Resume',
-          url: 'https://github.com/machio77777/curriculum-vitae',
-          overview: 'Web版の業務経歴書.',
-          technologys: [
-            require('../assets/markdown.svg'),
-            require('../assets/github-octocat.svg')]
-        },
-        {
-          capture: require('../assets/blog.png'),
-          name: '個人ブログ.',
-          eng: 'Blog',
-          url: 'https://free-strategy.com',
-          overview: 'WordPressで作ったアウトプットブログ.',
-          technologys: [
-            require('../assets/php.svg'),
-            require('../assets/wordpress-icon.svg'),
-            require('../assets/mysql.svg'),
-            require('../assets/html-5.svg'),
-            require('../assets/css-3.svg')]
-        },
-        {
-          capture: require('../assets/pokemon.png'),
-          name: 'Pokémon API.',
-          eng: 'Pokémon Rest API',
-          url: '',
-          overview: '第7世代対応のポケモンRest API.',
-          technologys: [
-            require('../assets/php.svg'),
-            require('../assets/cakephp.svg'),
-            require('../assets/mysql.svg'),
-            require('../assets/netbeans.svg'),
-            require('../assets/swagger.svg')]
-        },
-        {
-          capture: require('../assets/comingsoon.gif'),
-          name: '準備中1',
-          eng: '',
-          url: '',
-          overview: '',
-          technologys: []
-        },
-        {
-          capture: require('../assets/comingsoon.gif'),
-          name: '準備中2',
-          eng: '',
-          url: '',
-          overview: '',
-          technologys: []
         }
       ]
     }
