@@ -50,7 +50,7 @@ export default {
         {
           capture: require('../assets/blog.png'),
           name: '個人ブログ.',
-          eng: 'Blog',
+          eng: 'Technology Blog',
           url: 'https://free-strategy.com',
           overview: 'WordPressで作ったアウトプットブログ.',
           technologys: [
@@ -75,19 +75,24 @@ export default {
         },
         {
           capture: require('../assets/comingsoon.gif'),
-          name: '準備中1',
+          name: '準備中',
           eng: '',
           url: '',
           overview: '',
           technologys: []
         },
         {
-          capture: require('../assets/comingsoon.gif'),
-          name: '準備中2',
-          eng: '',
-          url: '',
-          overview: '',
-          technologys: []
+          capture: require('../assets/higashinakano.png'),
+          name: '地域ブログ',
+          eng: 'Higashi Nakano Local Blog',
+          url: 'https://higashinakano-walk.com/',
+          overview: 'WordPressで作った地域ブログ.',
+          technologys: [
+            require('../assets/php.svg'),
+            require('../assets/wordpress-icon.svg'),
+            require('../assets/mysql.svg'),
+            require('../assets/html-5.svg'),
+            require('../assets/css-3.svg')]
         }
       ]
     }
