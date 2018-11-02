@@ -68,4 +68,12 @@ export default {
 .technologys img {
   width: 30px;
 }
+@media (max-width : 670px){
+  .box {
+    width: 310px;
+  }
+  .capture img {
+    width: 310px;
+  }
+}
 </style>
