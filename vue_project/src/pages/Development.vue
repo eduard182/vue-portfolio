@@ -57,6 +57,7 @@ export default {
             require('../assets/php.svg'),
             require('../assets/wordpress-icon.svg'),
             require('../assets/mysql.svg'),
+            require('../assets/linux-tux.svg'),
             require('../assets/html-5.svg'),
             require('../assets/css-3.svg')]
         },
@@ -92,6 +93,7 @@ export default {
             require('../assets/php.svg'),
             require('../assets/wordpress-icon.svg'),
             require('../assets/mysql.svg'),
+            require('../assets/linux-tux.svg'),
             require('../assets/html-5.svg'),
             require('../assets/css-3.svg')]
         }
