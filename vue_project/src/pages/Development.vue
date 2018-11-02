@@ -52,7 +52,7 @@ export default {
           name: '個人ブログ.',
           eng: 'Technology Blog',
           url: 'https://free-strategy.com',
-          overview: 'WordPressで作ったアウトプットブログ.',
+          overview: 'WordPressで作った技術ブログ.',
           technologys: [
             require('../assets/php.svg'),
             require('../assets/wordpress-icon.svg'),
@@ -70,6 +70,7 @@ export default {
             require('../assets/php.svg'),
             require('../assets/cakephp.svg'),
             require('../assets/mysql.svg'),
+            require('../assets/composer.svg'),
             require('../assets/netbeans.svg'),
             require('../assets/swagger.svg')]
         },
