@@ -140,7 +140,7 @@ export default {
   margin: 0px;
   height: 25px;
   font-size: 18px;
-  color: #00bfff;
+  color: #6495ed;
   line-height: 25px;
 }
 #prof .heading {
