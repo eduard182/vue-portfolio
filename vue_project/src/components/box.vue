@@ -75,5 +75,8 @@ export default {
   .capture img {
     width: 310px;
   }
+  .technologys {
+    width: 270px;
+  }
 }
 </style>
