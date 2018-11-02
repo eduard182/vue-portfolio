@@ -30,12 +30,12 @@ export default {
           url: 'https://machio77777.github.io/vue-portfolio',
           overview: 'Vue.jsで作った簡易ポートフォリオ.',
           technologys: [
-            require('../assets/tech/javascript.svg'),
-            require('../assets/tech/vue.svg'),
-            require('../assets/tech/webpack.svg'),
-            require('../assets/tech/html-5.svg'),
-            require('../assets/tech/css-3.svg'),
-            require('../assets/tech/github-octocat.svg')]
+            require('../assets/javascript.svg'),
+            require('../assets/vue.svg'),
+            require('../assets/webpack.svg'),
+            require('../assets/html-5.svg'),
+            require('../assets/css-3.svg'),
+            require('../assets/github-octocat.svg')]
         },
         {
           capture: require('../assets/resume.png'),
@@ -44,8 +44,8 @@ export default {
           url: 'https://github.com/machio77777/curriculum-vitae',
           overview: 'Web版の業務経歴書.',
           technologys: [
-            require('../assets/tech/markdown.svg'),
-            require('../assets/tech/github-octocat.svg')]
+            require('../assets/markdown.svg'),
+            require('../assets/github-octocat.svg')]
         },
         {
           capture: require('../assets/blog.png'),
@@ -54,11 +54,11 @@ export default {
           url: 'https://free-strategy.com',
           overview: 'WordPressで作ったアウトプットブログ.',
           technologys: [
-            require('../assets/tech/php.svg'),
-            require('../assets/tech/wordpress-icon.svg'),
-            require('../assets/tech/mysql.svg'),
-            require('../assets/tech/html-5.svg'),
-            require('../assets/tech/css-3.svg')]
+            require('../assets/php.svg'),
+            require('../assets/wordpress-icon.svg'),
+            require('../assets/mysql.svg'),
+            require('../assets/html-5.svg'),
+            require('../assets/css-3.svg')]
         },
         {
           capture: require('../assets/pokemon.png'),
@@ -67,11 +67,11 @@ export default {
           url: '',
           overview: '第7世代対応のポケモンRest API.',
           technologys: [
-            require('../assets/tech/php.svg'),
-            require('../assets/tech/cakephp.svg'),
-            require('../assets/tech/mysql.svg'),
-            require('../assets/tech/netbeans.svg'),
-            require('../assets/tech/swagger.svg')]
+            require('../assets/php.svg'),
+            require('../assets/cakephp.svg'),
+            require('../assets/mysql.svg'),
+            require('../assets/netbeans.svg'),
+            require('../assets/swagger.svg')]
         },
         {
           capture: require('../assets/comingsoon.gif'),
