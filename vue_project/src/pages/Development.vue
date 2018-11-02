@@ -45,6 +45,7 @@ export default {
           overview: 'Web版の業務経歴書.',
           technologys: [
             require('../assets/markdown.svg'),
+            require('../assets/vim.svg'),
             require('../assets/github-octocat.svg')]
         },
         {
@@ -78,7 +79,7 @@ export default {
         {
           capture: require('../assets/comingsoon.gif'),
           name: '準備中',
-          eng: '',
+          eng: 'coming soon',
           url: '',
           overview: '',
           technologys: []
