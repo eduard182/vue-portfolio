@@ -247,4 +247,10 @@ export default {
 .v-enter {
   opacity: 0;
 }
+@media (max-width : 670px){
+  #skill .sbox {
+    width: 310px;
+    height: 580px;
+  }
+}
 </style>

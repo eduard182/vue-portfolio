@@ -40,6 +40,4 @@ export default {
   vertical-align: middle;
   display: inline-block;
 }
-@media (max-width : 670px){
-}
 </style>
