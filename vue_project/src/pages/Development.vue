@@ -63,7 +63,7 @@ export default {
             require('../assets/css-3.svg')]
         },
         {
-          capture: require('../assets/pokemon.png'),
+          capture: require('../assets/pokemon-api.png'),
           name: 'Pokémon API.',
           eng: 'Pokémon Rest API',
           url: '',
@@ -77,12 +77,17 @@ export default {
             require('../assets/swagger.svg')]
         },
         {
-          capture: require('../assets/comingsoon.gif'),
-          name: '準備中',
-          eng: 'coming soon',
+          capture: require('../assets/pokemon-spa.jpg'),
+          name: 'Pokémon SPA',
+          eng: 'Pokémon SPA',
           url: '',
-          overview: '',
-          technologys: []
+          overview: 'Pokémon APIを使ったSPA.',
+          technologys: [
+            require('../assets/javascript.svg'),
+            require('../assets/react.svg'),
+            require('../assets/webpack.svg'),
+            require('../assets/html-5.svg'),
+            require('../assets/css-3.svg')]
         },
         {
           capture: require('../assets/higashinakano.png'),
@@ -117,6 +122,8 @@ export default {
   line-height: 25px;
 }
 #development {
+  margin-top: 30px;
+  max-width: 1250px;
   display: inline-block;
 }
 .v-enter-active {
