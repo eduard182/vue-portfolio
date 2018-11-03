@@ -250,7 +250,7 @@ export default {
 @media (max-width : 670px){
   #skill .sbox {
     width: 310px;
-    height: 580px;
+    height: 590px;
   }
 }
 </style>
