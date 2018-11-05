@@ -2,6 +2,8 @@
   <transition appear>
     <div id="skill_container">
       <div id="skill">
+        <p class="heading">技術スタック.</p>
+        <p class="eng">- Technology stack -</p>
         <div id="server_side" class="sbox">
           <p>サーバーサイド</p>
           <p class="eng">- server side. -</p>
@@ -223,20 +225,24 @@ export default {
 
 <style>
 #skill_container {
-  height: 94vh;
   color: #000044;
   font-family: 'arial unicode ms';
+  background-color: #f9f9fc;
 }
 #skill {
-  margin: 30px auto;
+  margin: 0px auto;
+  padding: 20px 0px;
   max-width: 1250px;
 }
 #skill .sbox {
   width: 350px;
-  height: 550px;
   margin: 30px;
   display: inline-block;
   box-shadow: 0 0 8px gray;
+}
+#skill .heading {
+  font-size: 22px;
+  font-weight: bold;
 }
 #skill .eng {
   font-family: cursive;

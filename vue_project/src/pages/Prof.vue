@@ -108,11 +108,14 @@ export default {
 
 <style>
 #prof {
-  height: 94vh;
   position: relative;
   color: #000044;
   text-align: center;
   font-family: 'arial unicode ms';
+  background-color: #f9f9fc;
+}
+#prof p {
+  margin-top: 0px;
 }
 #picture {
   margin: 30px auto;
@@ -144,7 +147,7 @@ export default {
   line-height: 25px;
 }
 #prof .heading {
-  padding-top: 2vh;
+  padding-top: 5vh;
   font-size: 22px;
   font-weight: bold;
 }

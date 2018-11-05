@@ -2,6 +2,8 @@
   <transition appear>
     <div id="dev_container">
       <div id="development">
+        <p class="heading">作ったもの.</p>
+        <p class="eng">- Creation -</p>
         <box v-bind:key='product.name' v-for='product in products' v-bind:item='product'>
           <a slot="link" :href="product.url" target="_blank">{{product.name}}</a>
           <img slot="capture" :src=product.capture />
@@ -113,6 +115,7 @@ export default {
 #dev_container {
   height: 94vh;
   color: #000044;
+  background-color: #f9f9fc;
 }
 #dev_container .link a {
   margin: 0px;
@@ -122,9 +125,16 @@ export default {
   line-height: 25px;
 }
 #development {
-  margin-top: 30px;
+  margin-top: 20px;
   max-width: 1250px;
   display: inline-block;
+}
+#development .heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+#development .eng {
+  font-family: cursive;
 }
 .v-enter-active {
   transition: opacity 1.5s;

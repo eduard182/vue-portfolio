@@ -1,6 +1,7 @@
 <template>
   <transition appear>
     <div id="hello">
+      <Snowf :amount="80" :size="5" :speed="0.1" :wind="0" :opacity="0.9" :swing="1" :image = "null" :zIndex = "null" :resize = "true" color = "#ffffff" />
       <h1>Welcome to TaNA's Portfolio Site.</h1>
       <h2>This portfolio is built with Vue.js + Webpack + HTML5 + CSS3.</h2>
     </div>
@@ -8,9 +9,14 @@
 </template>
 
 <script>
+import Snowf from 'vue-snowf'
+
 export default {
   name: 'Home',
   title: ' ',
+  components: {
+    Snowf
+  },
   data () {
     return {
     }
@@ -21,7 +27,7 @@ export default {
 <style>
 #hello {
   position: relative;
-  height: 94vh;
+  height: 96vh;
   text-align: center;
   color: white;
   font-family: cursive;
@@ -30,7 +36,7 @@ export default {
   background-size: cover;
 }
 #hello h1 {
-  padding-top: 30vh;
+  padding-top: 35vh;
   font-size: 50px;
   letter-spacing: 3px;
   font-weight: normal;
