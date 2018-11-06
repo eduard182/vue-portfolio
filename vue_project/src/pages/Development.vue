@@ -113,7 +113,6 @@ export default {
 
 <style>
 #dev_container {
-  height: 94vh;
   color: #000044;
   background-color: #f9f9fc;
 }

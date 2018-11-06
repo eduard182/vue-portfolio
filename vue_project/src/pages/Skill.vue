@@ -238,6 +238,7 @@ export default {
   width: 350px;
   margin: 30px;
   display: inline-block;
+  background-color: #ffffff;
   box-shadow: 0 0 8px gray;
 }
 #skill .heading {

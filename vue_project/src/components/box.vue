@@ -35,6 +35,7 @@ export default {
   color: #000044;
   border: solid 1px #d3d3d3;
   display: inline-block;
+  background-color: #ffffff;
   box-shadow: 0 0 8px gray;
 }
 .capture img {
