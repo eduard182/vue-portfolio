@@ -114,7 +114,6 @@ export default {
 <style>
 #dev_container {
   color: #000044;
-  background-color: #f9f9fc;
 }
 #dev_container .link a {
   margin: 0px;

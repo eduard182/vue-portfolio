@@ -112,7 +112,6 @@ export default {
   color: #000044;
   text-align: center;
   font-family: 'arial unicode ms';
-  background-color: #f9f9fc;
 }
 #prof p {
   margin-top: 0px;
