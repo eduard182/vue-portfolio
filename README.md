@@ -1,7 +1,7 @@
 
 # ポートフォリオ
 
-[URL](https://machio77777.github.io/vue-portfolio/)
+[ポートフォリオのURL](https://machio77777.github.io/vue-portfolio/)
 
 ## 利用技術
 
