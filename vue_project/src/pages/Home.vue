@@ -34,6 +34,7 @@ export default {
   background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),
   url('../assets/sakura.jpg');
   background-size: cover;
+  text-shadow: 0px 4px 3px #999999;
 }
 #hello h1 {
   padding-top: 35vh;

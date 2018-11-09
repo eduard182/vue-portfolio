@@ -30,6 +30,7 @@ header {
   top: 0px;
   z-index: 10;
   font-family: cursive;
+  text-shadow: 0px 0.3px 0.1px #999999;
 }
 a {
   height: 60px;

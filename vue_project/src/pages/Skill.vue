@@ -225,8 +225,9 @@ export default {
 
 <style>
 #skill_container {
-  color: #000044;
+  color: #222222;
   font-family: 'arial unicode ms';
+  text-shadow: 0px 0.3px 0.1px #999999;
 }
 #skill {
   margin: 0px auto;

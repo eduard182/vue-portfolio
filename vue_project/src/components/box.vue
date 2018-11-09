@@ -32,7 +32,6 @@ export default {
   vertical-align: top;
   margin: 30px;
   text-align: left;
-  color: #000044;
   border: solid 1px #d3d3d3;
   display: inline-block;
   background-color: #ffffff;

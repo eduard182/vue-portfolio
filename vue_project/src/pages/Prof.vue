@@ -91,14 +91,20 @@
           </tr>
         </tbody>
       </table>
+      <pokemon></pokemon>
     </div>
   </transition>
 </template>
 
 <script>
+import pokemon from '@/components/pokemon'
+
 export default {
   name: 'Prof',
   title: ' ',
+  components: {
+    pokemon
+  },
   data () {
     return {
     }
@@ -109,9 +115,10 @@ export default {
 <style>
 #prof {
   position: relative;
-  color: #000044;
+  color: #222222;
   text-align: center;
   font-family: 'arial unicode ms';
+  text-shadow: 0px 0.3px 0.1px #999999;
 }
 #prof p {
   margin-top: 0px;
@@ -165,7 +172,7 @@ export default {
   margin: 15px 0px;
 }
 #prof #license {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .v-enter-active {
   transition: opacity 1.5s;
