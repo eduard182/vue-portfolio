@@ -37,7 +37,7 @@ export default {
   text-shadow: 0px 4px 3px #999999;
 }
 #hello h1 {
-  padding-top: 35vh;
+  padding-top: 33vh;
   font-size: 50px;
   letter-spacing: 3px;
   font-weight: normal;
