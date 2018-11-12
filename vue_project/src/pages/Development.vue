@@ -68,7 +68,7 @@ export default {
           capture: require('../assets/pokemon-api.png'),
           name: 'Pokémon API.',
           eng: 'Pokémon Rest API',
-          url: '',
+          url: 'https://machio77777.github.io/pokemon-swagger/',
           overview: '第7世代対応のポケモンRest API.',
           technologys: [
             require('../assets/php.svg'),
