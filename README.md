@@ -1,7 +1,7 @@
 
-# TaNA's Portfolio ([ポートフォリオのURL](https://machio77777.github.io/vue-portfolio/))
+# TaNA's Portfolio
 
-- Vue.jsで作成したポートフォリオです.
+- Vue.jsで作成したポートフォリオ([ポートフォリオのURL](https://machio77777.github.io/vue-portfolio/))です.
 
 ## 利用技術
 
