@@ -68,28 +68,23 @@ export default {
           capture: require('../assets/pokemon-api.png'),
           name: 'Pokémon API.',
           eng: 'Pokémon Rest API',
-          url: 'https://machio77777.github.io/pokemon-swagger/',
+          url: 'https://github.com/machio77777/pokemon-api',
           overview: '第7世代対応のポケモンRest API.',
           technologys: [
             require('../assets/php.svg'),
             require('../assets/cakephp.svg'),
             require('../assets/mysql.svg'),
             require('../assets/composer.svg'),
-            require('../assets/netbeans.svg'),
-            require('../assets/swagger.svg')]
+            require('../assets/netbeans.svg')]
         },
         {
-          capture: require('../assets/pokemon-spa.jpg'),
-          name: 'Pokémon SPA',
-          eng: 'Pokémon SPA',
-          url: '',
-          overview: 'Pokémon APIを使ったSPA.',
+          capture: require('../assets/pokemon-swagger.jpg'),
+          name: 'Swagger-ui',
+          eng: 'Pokémon Restful API Swagger',
+          url: 'https://machio77777.github.io/pokemon-swagger/',
+          overview: 'Pokémon APIのSwagger定義.',
           technologys: [
-            require('../assets/javascript.svg'),
-            require('../assets/react.svg'),
-            require('../assets/webpack.svg'),
-            require('../assets/html-5.svg'),
-            require('../assets/css-3.svg')]
+            require('../assets/swagger.svg')]
         },
         {
           capture: require('../assets/higashinakano.png'),
