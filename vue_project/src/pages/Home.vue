@@ -58,7 +58,7 @@ export default {
 
 @media (max-width : 670px){
   #hello {
-    height: 70vh;
+    height: 75vh;
     font-family: 'arial unicode ms';
   }
   #hello h1 {
