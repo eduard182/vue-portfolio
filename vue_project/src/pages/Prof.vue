@@ -23,15 +23,15 @@
             <td>横浜市.</td>
           </tr>
           <tr>
-            <th>github.</th>
+            <th>GitHub.</th>
             <td><a href='https://github.com/machio77777' target="_blank">@machio77777</a></td>
           </tr>
           <tr>
-            <th>qiita.</th>
+            <th>Qiita.</th>
             <td><a href='https://qiita.com/machio77777' target="_blank">@machio77777</a></td>
           </tr>
           <tr>
-            <th>booklog.</th>
+            <th>Booklog.</th>
             <td><a href='https://booklog.jp/users/machio77777' target="_blank">@machio77777</a></td>
           </tr>
         </tbody>
