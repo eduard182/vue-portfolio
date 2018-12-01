@@ -17,3 +17,21 @@ vue init webpack プロジェクト名
 npm run dev
 npm run build
 ```
+
+## Directory Structure
+
+```
+vue-portfolio/
+  ├ static
+  ├ 404.html
+  ├ README.md
+  ├ index.html
+  └ vue_project
+    └ src
+      ├ assets 
+      ├ components
+      ├ pages
+      ├ router
+      ├ App.vue
+      └ main.js
+```
