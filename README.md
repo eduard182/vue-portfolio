@@ -5,9 +5,9 @@ My Portfolio made with Vue.js
 
 ## Description
 
-This Portfolio is build with Vue.js+Webpack+HTML5+CSS3
+This Portfolio is build with Vue.js + Webpack + HTML5 + CSS3
 
-[URL](https://machio77777.github.io/vue-portfolio/))
+[TaNA's Portfolio URL](https://machio77777.github.io/vue-portfolio/)
 
 ## Install
 
