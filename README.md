@@ -1,27 +1,19 @@
 
 # TaNA's Portfolio
 
-- Vue.jsで作成したポートフォリオ([ポートフォリオのURL](https://machio77777.github.io/vue-portfolio/))です.
+My Portfolio made with Vue.js
 
-## 利用技術
+## Description
 
-- Vue.js
-- Webpack
-- HTML5
-- CSS3
+This Portfolio is build with Vue.js+Webpack+HTML5+CSS3
 
-## 環境構築
+[URL](https://machio77777.github.io/vue-portfolio/))
+
+## Install
 
 ```
-// インストール
 npm install -g vue-cli
- 
-// プロジェクト作成
 vue init webpack プロジェクト名
-
-// ローカル環境での確認
 npm run dev
-
-// ビルド
 npm run build
 ```
