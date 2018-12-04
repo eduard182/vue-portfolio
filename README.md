@@ -9,7 +9,7 @@ This Portfolio is build with Vue.js + Webpack + HTML5 + CSS3
 
 [TaNA's Portfolio URL](https://machio77777.github.io/vue-portfolio/)
 
-## Install
+## Development
 
 ```
 npm install -g vue-cli
@@ -17,6 +17,14 @@ vue init webpack プロジェクト名
 npm run dev
 npm run build
 ```
+
+## Technology
+
+- vue.js
+- vue-cli
+- Webpack
+- HTML5
+- CSS3
 
 ## Directory Structure
 
