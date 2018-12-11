@@ -43,11 +43,11 @@ export default {
           capture: require('../assets/resume.png'),
           name: '業務経歴書.',
           eng: 'Resume',
-          url: 'https://github.com/machio77777/curriculum-vitae',
-          overview: 'Web版の業務経歴書.',
+          url: 'https://machio77777.github.io/curriculum-vitae/',
+          overview: 'VuePressで作った業務経歴書.',
           technologys: [
+            require('../assets/vuepress.png'),
             require('../assets/markdown.svg'),
-            require('../assets/vim.svg'),
             require('../assets/github-octocat.svg')]
         },
         {
@@ -84,7 +84,8 @@ export default {
           url: 'https://machio77777.github.io/pokemon-swagger/',
           overview: 'Pokémon APIのSwagger定義.',
           technologys: [
-            require('../assets/swagger.svg')]
+            require('../assets/swagger.svg'),
+            require('../assets/github-octocat.svg')]
         },
         {
           capture: require('../assets/higashinakano.png'),
