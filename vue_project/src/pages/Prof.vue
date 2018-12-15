@@ -34,6 +34,10 @@
             <th>Booklog.</th>
             <td><a href='https://booklog.jp/users/machio77777' target="_blank">@machio77777</a></td>
           </tr>
+          <tr>
+            <th>Wantedly.</th>
+            <td><a href='https://www.wantedly.com/users/18606524' target="_blank">@machio77777</a></td>
+          </tr>
         </tbody>
       </table>
       <p class="heading">これからやりたいこと.</p>
