@@ -72,12 +72,12 @@ export default {
           proficiency: '★★☆☆☆',
           term: '2ヶ月'
         },
-        dotnet: {
-          icon: require('../assets/dotnet.svg'),
-          proficiency: '★★☆☆☆',
+        c2: {
+          icon: require('../assets/cplus.svg'),
+          proficiency: '★☆☆☆☆',
           term: '3ヶ月'
         },
-        c: {
+        c1: {
           icon: require('../assets/c.svg'),
           proficiency: '★☆☆☆☆',
           term: '3ヶ月'
